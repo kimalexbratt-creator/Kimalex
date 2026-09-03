@@ -8,129 +8,261 @@
 
   <meta
     name="description"
-    content="Kimalex – Sport & Musikk Brattvang. Bordtennis, discgolf og skreddersydd musikk til store begivenheter."
+    content="Personlig veiledning i bordtennis og discgolf, samt skreddersydd musikk til store begivenheter."
   >
 
+  <meta name="theme-color" content="#07101f">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <header class="hero">
-    <div class="hero-content">
+  <a class="skip-link" href="#innhold">Gå til innhold</a>
 
-      <p class="eyebrow">SPORT • MUSIKK • LIDENSKAP</p>
+  <header class="site-header">
 
-      <h1>KIMALEX</h1>
+    <a class="brand" href="#top" aria-label="Kimalex – forsiden">
+      <span class="brand-mark">K</span>
+      <span class="brand-name">KIMALEX</span>
+    </a>
 
-      <h2>Sport & Musikk Brattvang</h2>
+    <nav aria-label="Hovedmeny">
+      <a href="#tjenester">Tjenester</a>
+      <a href="#om">Om Kimalex</a>
+      <a class="nav-contact" href="#kontakt">Kontakt</a>
+    </nav>
 
-      <p class="hero-text">
-        Lidenskap for idrett og musikk.
-      </p>
-
-      <a href="#tjenester" class="main-button">
-        Se hva Kimalex tilbyr
-      </a>
-
-    </div>
   </header>
 
+  <main id="innhold">
 
-  <main>
+    <section class="hero" id="top">
 
-    <section id="tjenester" class="section">
+      <div class="hero-copy">
 
-      <div class="section-heading">
-        <p class="small-title">KIMALEX</p>
-        <h2>Sport og musikk samlet på ett sted</h2>
-
-        <p>
-          Faglig veiledning, trening og kreativitet med fokus på
-          utvikling, mestring og gode opplevelser.
+        <p class="eyebrow">
+          <span></span>
+          Sport • Musikk • Lidenskap
         </p>
+
+        <h1>
+          Utvikling i idrett.
+          <br>
+          <em>Musikk med mening.</em>
+        </h1>
+
+        <p class="hero-text">
+          Personlig veiledning i bordtennis og discgolf – og skreddersydd
+          musikk til begivenheter som fortjener noe helt eget.
+        </p>
+
+        <div class="hero-actions">
+
+          <a class="button button-primary" href="#tjenester">
+            Utforsk tilbudet
+          </a>
+
+          <a
+            class="button button-secondary"
+            href="mailto:kimalexbratt@gmail.com"
+          >
+            Send e-post
+          </a>
+
+        </div>
+
       </div>
 
+      <div class="hero-visual" aria-hidden="true">
+
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="visual-card">
+
+          <span class="visual-k">K</span>
+
+          <p>KIMALEX</p>
+
+          <small>Sport &amp; Musikk Brattvang</small>
+
+        </div>
+
+        <span class="sport-label label-one">Bordtennis</span>
+        <span class="sport-label label-two">Discgolf</span>
+        <span class="sport-label label-three">Musikk</span>
+
+      </div>
+
+    </section>
+
+    <section class="intro" aria-label="Kort om Kimalex">
+
+      <p>Én personlig aktør</p>
+      <span></span>
+
+      <p>Tre fagområder</p>
+      <span></span>
+
+      <p>Tilpasset deg</p>
+
+    </section>
+
+    <section class="services section" id="tjenester">
+
+      <div class="section-heading">
+
+        <div>
+
+          <p class="eyebrow">
+            <span></span>
+            Tjenester
+          </p>
+
+          <h2>Det Kimalex tilbyr</h2>
+
+        </div>
+
+        <p>
+          Praktisk veiledning og kreativt arbeid, med oppmerksomhet
+          på dine mål og det du ønsker å få til.
+        </p>
+
+      </div>
 
       <div class="cards">
 
-        <article class="card">
-          <div class="icon">🏓</div>
+        <article class="card card-blue">
+
+          <div class="card-number">01</div>
+          <div class="card-icon" aria-hidden="true">🏓</div>
 
           <h3>Bordtennis</h3>
 
           <p>
-            Faglig veiledning, trening og sparring innen bordtennis.
-            Fokus på teknikk, utvikling og spilleglede.
+            Faglig veiledning, trening og sparring med fokus på teknikk,
+            utvikling og spilleglede.
           </p>
+
+          <a href="#kontakt">
+            Spør om bordtennis <span>→</span>
+          </a>
+
         </article>
 
+        <article class="card card-green">
 
-        <article class="card">
-          <div class="icon">🥏</div>
+          <div class="card-number">02</div>
+          <div class="card-icon" aria-hidden="true">🥏</div>
 
           <h3>Discgolf</h3>
 
           <p>
-            Teknikktrening i discgolf med fokus på bedre kast,
-            kontroll og utvikling av spillet.
+            Teknikktrening som hjelper deg med bedre kast, mer kontroll
+            og tryggere valg på banen.
           </p>
+
+          <a href="#kontakt">
+            Spør om discgolf <span>→</span>
+          </a>
+
         </article>
 
+        <article class="card card-purple">
 
-        <article class="card">
-          <div class="icon">🎵</div>
+          <div class="card-number">03</div>
+          <div class="card-icon music-icon" aria-hidden="true">♫</div>
 
           <h3>Musikk</h3>
 
           <p>
-            Skreddersydde sanger og musikk til bryllup,
-            konfirmasjon og andre store begivenheter.
+            Skreddersydde sanger og musikk til bryllup, konfirmasjon
+            og andre store begivenheter.
           </p>
+
+          <a href="#kontakt">
+            Spør om musikk <span>→</span>
+          </a>
+
         </article>
 
       </div>
 
     </section>
 
+    <section class="about section" id="om">
 
-    <section class="about-section">
+      <div class="about-panel">
 
-      <div class="about-box">
+        <div class="about-accent" aria-hidden="true">K</div>
 
-        <p class="small-title">OM KIMALEX</p>
+        <div class="about-copy">
 
-        <h2>Idrett, kreativitet og personlig engasjement</h2>
+          <p class="eyebrow">
+            <span></span>
+            Om Kimalex
+          </p>
 
-        <p>
-          Kimalex kombinerer interesse for sport og musikk.
-          Målet er å skape gode opplevelser, bidra til utvikling
-          og tilby personlig tilpasset hjelp.
-        </p>
+          <h2>Personlig engasjement i hvert oppdrag</h2>
+
+          <p>
+            Kimalex samler idrett og musikk under ett navn. Målet er å
+            skape gode opplevelser, bidra til utvikling og levere hjelp
+            som er tilpasset personen og anledningen.
+          </p>
+
+        </div>
+
+        <div class="values" aria-label="Kimalex sine verdier">
+
+          <div>
+            <strong>01</strong>
+            <span>Personlig</span>
+          </div>
+
+          <div>
+            <strong>02</strong>
+            <span>Engasjert</span>
+          </div>
+
+          <div>
+            <strong>03</strong>
+            <span>Målrettet</span>
+          </div>
+
+        </div>
 
       </div>
 
     </section>
 
+    <section class="contact section" id="kontakt">
 
-    <section class="contact-section">
+      <div class="contact-panel">
 
-      <div class="contact-box">
+        <div>
 
-        <p class="small-title">KONTAKT</p>
+          <p class="eyebrow">
+            <span></span>
+            Kontakt
+          </p>
 
-        <h2>Ta kontakt</h2>
+          <h2>Har du en idé eller et mål?</h2>
 
-        <p>
-          Har du spørsmål om bordtennis, discgolf eller musikk?
-          Send gjerne en e-post.
-        </p>
+          <p>
+            Fortell kort hva du ønsker hjelp med, så tar vi samtalen derfra.
+          </p>
+
+        </div>
 
         <a
-          class="email-button"
+          class="button button-light"
           href="mailto:kimalexbratt@gmail.com"
         >
-          ✉ kimalexbratt@gmail.com
+
+          <span>Send e-post til</span>
+          <strong>kimalexbratt@gmail.com</strong>
+
         </a>
 
       </div>
@@ -139,12 +271,17 @@
 
   </main>
 
-
   <footer>
 
-    <p>
-      © Kimalex – Sport & Musikk Brattvang
-    </p>
+    <a class="brand footer-brand" href="#top">
+
+      <span class="brand-mark">K</span>
+      <span class="brand-name">KIMALEX</span>
+
+    </a>
+
+    <p>Sport &amp; Musikk Brattvang</p>
+    <p>© 2026 Kimalex</p>
 
   </footer>
 
