@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="no">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Kimalex – bordtennis, discgolf og skreddersydd musikk.">
+  <title>Kimalex | Sport & Musikk</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="logo" href="#top">KIMALEX</a>
+  <nav>
+    <a href="#bordtennis">Bordtennis</a>
+    <a href="#discgolf">Discgolf</a>
+    <a href="#musikk">Musikk</a>
+    <a class="navcta" href="#kontakt">Kontakt</a>
+  </nav>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-content">
+    <p class="eyebrow">SPORT • TRENING • MUSIKK</p>
+    <h1>Energi.<br><span>Utvikling.</span><br>Lidenskap.</h1>
+    <p class="lead">Faglig veiledning og trening innen bordtennis og discgolf – kombinert med skreddersydd musikk til livets store begivenheter.</p>
+    <div class="actions">
+      <a class="button primary" href="#tjenester">Se hva jeg tilbyr</a>
+      <a class="button ghost" href="#kontakt">Ta kontakt</a>
+    </div>
+  </div>
+  <div class="hero-art" aria-hidden="true">
+    <div class="orb orb1"></div><div class="orb orb2"></div>
+    <div class="sport-card"><span>K</span><strong>Sport<br>& Musikk</strong></div>
+  </div>
+</section>
+
+<section class="intro" id="tjenester">
+  <p class="eyebrow">KIMALEX</p>
+  <h2>Tre lidenskaper.<br>Én møteplass.</h2>
+  <p>Enten du vil utvikle spillet ditt eller skape musikk til en spesiell anledning, står kvalitet, engasjement og personlig oppfølging i sentrum.</p>
+</section>
+
+<section class="cards">
+  <article class="card" id="bordtennis">
+    <div class="number">01</div>
+    <p class="eyebrow">BORDTENNIS</p>
+    <h3>Trening & sparring</h3>
+    <p>Faglig veiledning, målrettet trening og sparring. Fokus på teknikk, utvikling og spilleglede.</p>
+    <a href="#kontakt">Ta kontakt →</a>
+  </article>
+  <article class="card" id="discgolf">
+    <div class="number">02</div>
+    <p class="eyebrow">DISCGOLF</p>
+    <h3>Teknikktrening</h3>
+    <p>Jobb med teknikken og få mer ut av kastene dine gjennom praktisk og personlig veiledning.</p>
+    <a href="#kontakt">Ta kontakt →</a>
+  </article>
+  <article class="card" id="musikk">
+    <div class="number">03</div>
+    <p class="eyebrow">MUSIKK</p>
+    <h3>Musikk som betyr noe</h3>
+    <p>Skreddersydde sanger og musikk til bryllup, konfirmasjon og andre store begivenheter.</p>
+    <a href="#kontakt">Ta kontakt →</a>
+  </article>
+</section>
+
+<section class="statement">
+  <p>SPORT × MUSIKK</p>
+  <h2>Gjør det du<br><span>brenner for.</span></h2>
+</section>
+
+<section class="contact" id="kontakt">
+  <div>
+    <p class="eyebrow">KONTAKT</p>
+    <h2>Har du lyst til å høre mer?</h2>
+    <p>Send meg en e-post om bordtennis, discgolf eller musikk, så tar vi det derfra.</p>
+  </div>
+  <a class="mail" href="mailto:kimalexbratt@gmail.com">kimalexbratt@gmail.com <span>↗</span></a>
+</section>
+</main>
+
+<footer>
+  <strong>KIMALEX</strong>
+  <span>Sport & Musikk Brattvang</span>
+  <span>© 2026 Kimalex</span>
+</footer>
+<script>
+const observer=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.12});
+document.querySelectorAll('.card,.intro,.statement,.contact').forEach(e=>observer.observe(e));
+</script>
+</body>
+</html>
